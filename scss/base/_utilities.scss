@@ -1,0 +1,15 @@
+@mixin transition($transition...) {
+  -moz-transition   : $transition;
+  -o-transition     : $transition;
+  -webkit-transition: $transition;
+  transition        : $transition;
+}
+
+%transition {
+  @include transition(all 300ms cubic-bezier(.445, .050, .550, .950));
+}
+
+%fix-fatty-fonts {
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

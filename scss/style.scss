@@ -1,0 +1,16 @@
+@import 'base/vendor/bootstrap';
+@import 'base/variables';
+
+@import 'base/normalize';
+@import 'base/global';
+@import 'base/fonts';
+
+// Import Components
+@import 'components/header';
+@import 'components/footer';
+
+// Import Layouts
+// @import 'layouts/home';
+
+// Import Plugins
+// @import 'plugins/plugin';
